@@ -53,10 +53,10 @@ export abstract class Produto{
 
         switch (this._tipo) {
             case 1:
-                tipo = "Medicammento";
+                tipo = "Medicamento";
                 break;
             case 2:
-                tipo = "COsmetico";
+                tipo = "Cosmetico";
                 break;
         }
     
@@ -64,10 +64,10 @@ export abstract class Produto{
         console.log("\n\n*****************************************************");
         console.log("Dados do Produtos:");
         console.log("*****************************************************");
-        console.log("Numero da Conta: " + this._id);
-        console.log("Agência: " + this._nome);
+        console.log("Id: " + this._id);
+        console.log("Produto: " + this._nome);
         console.log("Tipo: " + this._tipo);
-        console.log("Titular: " + this._preco);
+        console.log("Preco: " + this._preco);
     }
 
 }
