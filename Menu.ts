@@ -13,14 +13,11 @@ export function main() {
     //Instanciar um objeto da classe ProdutoController
     const produtos = new ProdutoController();
 
-    //objetos de teste
-    produtos.cadastrar(new Medicamento(produtos.gerarId(), "Tylenol", 1, 42.00, "Paracetamol"))
-    produtos.cadastrar(new Medicamento(produtos.gerarId(), "Sabonete Rexona", 2, 3.00, "Sun"))
 
     while (true) {
 
-        console.log(colors.bg.black, colors.fg.yellow, 
-                    "*****************************************************");
+        console.log(colors.bg.white, colors.fg.bluestrong, 
+                   "*****************************************************");
         console.log("                                                     ");
         console.log("                FARMACIA VIDA LEVE                   ");
         console.log("                                                     ");
@@ -150,8 +147,8 @@ export function main() {
 function sobre(): void {
     console.log("\n*****************************************************");
     console.log("Projeto Desenvolvido por: ");
-    console.log("Ana Paula Santana - anas1@generation.org");
-    console.log("github.com/conteudoGeneration");
+    console.log("Ana Paula Santana - anapaula-sds@hotmail.com");
+    console.log("https://github.com/anapaula-sds");
     console.log("*****************************************************");
 }
 
